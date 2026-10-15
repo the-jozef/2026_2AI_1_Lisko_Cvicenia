@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+<body>
+   
+    <div style="display: grid; grid-template-columns: 100px 100px;">
+
+        <div style="background-color: lightblue; height: 100px; width: 100px;">div1
+            <p>Paragraf</p>
+        </div>
+
+        <div style="background-color: green;">div2</div>
+
+    </div>
+
+     <div style="display: grid; grid-template-columns: 100px 1fr;">
+
+        <div style="background-color: lightblue; height: 100px; width: 100px;">div1
+            <p>Paragraf</p>
+        </div>
+
+        <div style="background-color: green;">div2</div>
+
+    </div>
+
+    <div style="display: grid; grid-template-columns: 100px 1fr 2fr; margin-top: 30px;">
+
+        <div style="background-color: lightblue; height: 100px; width: 100px;">div1
+            <p>Paragraf</p>
+        </div>
+
+        <div style="background-color: green;">div2</div>
+        <div style="background-color: blue; color: white;">div3</div>
+
+    </div>
+
+    <div style="display: grid; grid-template-columns:1fr 1fr 1fr; margin-top: 30px; column-gap: 20px;">
+
+        <div style="background-color: yellow; height: 200px; ">div1</div>
+        <div style="background-color: green;">div2</div>
+        <div style="background-color: blue;">div3</div>
+
+        <div style="background-color: yellow; height: 200px; ">div1</div>
+        <div style="background-color: green;">div2</div>
+        <div style="background-color: blue; color: white;">div3</div>
+
+    </div>
+
+</body>
+</html>

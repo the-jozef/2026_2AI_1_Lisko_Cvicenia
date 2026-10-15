@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="search-box">
+    <img class="circle-img" src="../Img/Square_picture.jpg" alt="Profile Picture">
+    <input class="search-bar" type="text" placeholder="What's happening?">
+</div>
+
+<div class="left-section" style="display: flex; gap: 40%;">
+    <div >
+        <img src="https://play-lh.googleusercontent.com/QNmuZQc9I6Zbe3mWnSr0hycnENqGFCI5p3yE29Hkxtf22T0IWS6zTrpxULLyyjWpB7ONAXDsDQXnXcVWokl3eg=w240-h480-rw" height="50px"/>
+    </div>
+    <div class="middle-selection" style="flex: 1; margin-left: 70px; margin-right: 35px; min-width: 500px; min-width: 500px; ">
+       <input class="searchh-bar" type="text" placeholder="hladat" style="align-items: center; justify-content: center;"/>
+    </div>
+
+    <div class="right-selection">
+        <img src="https://yt3.ggpht.com/ytc/AIdro_k65DZsAHQBUnAuOxSZT7r9fAk4iy8_eNYr_aT6LrBfoCwrcS85Lh9VOPaGRI17GotdtA=s88-c-k-c0x00ffffff-no-rj" height="50px" style="border-radius: 50%;" />
+    </div>
+</div>
+
+
+
+
+<div class="grid">
+
+    <div class="card">
+        <img src="../Img/images.jpg" width="300" height="400">
+        <p>New life in cinema</p>
+        <p>Duklock</p>
+        <p>10 mil. views 2 years ago</p>
+    </div>
+
+    <div class="card">
+        <img src="../Img/images (1).jpg" width="300" height="400">
+        <p>Fishing with my dumb friend</p>
+        <p>Duklock & PPPeter</p>
+        <p>25 mil. views 5 days ago</p>
+        
+    
+    </div>
+
+    <div class="card">
+        <img src="../Img/images (2).jpg" width="300" height="400">
+        <p>They are't existing</p>
+        <p>Duklock</p>
+        <p>25 mil. views 1 week ago</p>
+        
+        
+    </div>
+</div>
+
+<div class="grid">
+
+    <div class="card">
+        <img src="../Img/images.jpg" width="300" height="400">
+        <p>New life in cinema</p>
+        <p>Duklock</p>
+        <p>10 mil. views 2 years ago</p>
+    </div>
+
+    <div class="card">
+        <img src="../Img/images (1).jpg" width="300" height="400">
+        <p>Fishing with my dumb friend</p>
+        <p>Duklock & PPPeter</p>
+        <p>25 mil. views 5 days ago</p>
+        
+    
+    </div>
+
+    <div class="card">
+        <img src="../Img/images (2).jpg" width="300" height="400">
+        <p>They are't existing</p>
+        <p>Duklock</p>
+        <p>25 mil. views 1 week ago</p>
+        
+        
+    </div>
+</div>
+
+
+
+        
+
+
+
+</body>
+
+<style>
+    .search-box {
+    margin: 0 auto; 
+    gap: 5px;
+    width: 300px;
+    align-items: center;
+    display: inline;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    
+    }
+.circle-img{
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+      object-fit: cover;
+     margin-left: 2px;
+   
+}
+.search-bar{
+    flex: 1;
+    background-color: #f5f8fa;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    align-items: bottom;
+    color: black;
+    margin: 2px;
+}
+.search-bar::placeholder{
+    color: black;
+}
+.search-bar:focus::placeholder{
+opacity: 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.card img{
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+}
+.card p{
+    margin: 4px 0 0;
+}
+
+</style>
+</html>
